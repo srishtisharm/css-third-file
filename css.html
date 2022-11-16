@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1{
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        margin: auto;
+    }
+    .div1:hover{
+        background-color: red;
+        border-radius: 50%;
+    }
+    .nav{
+        height: 100px;
+        width: 100%;
+        background-color: yellow;
+        text-align: center;
+    }
+    a{
+        font-size: 50px;
+        margin: 5px;
+        text-decoration: auto;
+    }
+    a:hover{
+        background-color: white;
+    }
+    li:first-child{
+        color: deeppink;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: pink;
+    }
+    li:last-child{
+        background-color: yellowgreen;
+        color: brown;
+        font-size: 30px;
+    }
+    li:nth-child(2) , li:nth-child(4)
+    {
+        background-color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    li:nth-child(3), li:nth-child(5)
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+    }
+    p::first-letter{
+        color: blueviolet;
+        font-size: 70px;
+    }
+    p::first-line{
+        color: darkorange;
+        font-size: 30px;
+    }
+    li{
+        list-style-type: none;
+    }
+    li::before{
+        content:'*';
+    }
+    li::after{
+        content: 'number';
+    }
+</style>
+<body>
+    <div class="div1">
+    </div>
+    <div class="nav">
+        <nav>
+            <a href="">HOME</a>
+            <a href="">HOME</a>
+            <a href="">HOME</a>
+            <a href="">HOME</a>
+        </nav>
+    </div>
+    <div>
+        <ul>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ul>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore repudiandae temporibus eaque? Eveniet veniam consequuntur velit, provident maiores ipsam quisquam corrupti blanditiis consequatur nesciunt ab dolores, fuga minima expedita.</p>
+    <br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad aliquid est libero inventore voluptates asperiores consequatur? Rerum sed quia, aliquid nisi ducimus beatae labore repudiandae, cumque fugiat quidem laborum quas.</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio laboriosam veniam quo totam aut, quis consectetur, odit hic, doloremque cum iste? Tenetur quam qui illum rerum, cum iusto nisi debitis?</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus, placeat velit quos quam officiis vel eum animi veritatis sed eaque, eius voluptatibus! Aspernatur ut accusamus similique esse quam voluptate?</p>
+</body>
+</html>
